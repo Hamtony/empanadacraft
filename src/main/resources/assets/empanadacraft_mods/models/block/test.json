@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "empanadacraft_mods:blocks/cultivo_tomate_3",
+    "particle": "empanadacraft_mods:blocks/cultivo_tomate_3"
+  }
+}

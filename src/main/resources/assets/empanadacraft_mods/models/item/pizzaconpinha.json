@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "empanadacraft_mods:items/pizza_con_pinha"
+  }
+}

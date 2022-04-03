@@ -1,0 +1,12 @@
+{
+  "stal2": {
+    "category": "music",
+    "subtitle": "subtitles.stal2",
+    "sounds": [
+      {
+        "name": "empanadacraft_mods:rick-astley-never-gonna-give-you-up-_official-music-video_",
+        "stream": true
+      }
+    ]
+  }
+}

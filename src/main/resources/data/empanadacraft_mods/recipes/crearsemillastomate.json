@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "empanadacraft_mods:tomate"
+    }
+  ],
+  "result": {
+    "item": "empanadacraft_mods:semillatomate",
+    "count": 4
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "empanadacraft_mods:blocks/cultivo_tomate_3"
+  }
+}

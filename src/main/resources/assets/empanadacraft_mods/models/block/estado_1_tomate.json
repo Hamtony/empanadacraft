@@ -1,0 +1,8 @@
+{
+  "parent": "empanadacraft_mods:custom/cultivoestado1",
+  "textures": {
+    "all": "empanadacraft_mods:blocks/cultivo_tomate_1",
+    "particle": "empanadacraft_mods:blocks/cultivo_tomate_1",
+    "missing": "empanadacraft_mods:blocks/"
+  }
+}

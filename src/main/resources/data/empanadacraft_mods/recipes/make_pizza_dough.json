@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "empanadacraft_mods:yeast"
+    },
+    "3": {
+      "item": "empanadacraft_mods:yeast"
+    },
+    "4": {
+      "item": "empanadacraft_mods:yeast"
+    },
+    "5": {
+      "item": "empanadacraft_mods:yeast"
+    },
+    "7": {
+      "item": "empanadacraft_mods:yeast"
+    }
+  },
+  "result": {
+    "item": "empanadacraft_mods:pizza_dough",
+    "count": 1
+  }
+}

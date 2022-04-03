@@ -1,0 +1,403 @@
+{
+  "mod_elements": [
+    {
+      "name": "MANDARINA",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mandarina"
+    },
+    {
+      "name": "Stal2",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stal_2"
+    },
+    {
+      "name": "Yeast",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeast"
+    },
+    {
+      "name": "CookYeast",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cook_yeast"
+    },
+    {
+      "name": "PizzaDough",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_dough"
+    },
+    {
+      "name": "MakePizzaDough",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_pizza_dough"
+    },
+    {
+      "name": "Palta",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palta"
+    },
+    {
+      "name": "Tomate",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomate"
+    },
+    {
+      "name": "Peperoni",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peperoni"
+    },
+    {
+      "name": "Makepeperoni",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makepeperoni"
+    },
+    {
+      "name": "PizzaconpinhaFoodEaten",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzaconpinha_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pizzaconpinha",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzaconpinha"
+    },
+    {
+      "name": "Pina",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pina"
+    },
+    {
+      "name": "Semillatomate",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semillatomate"
+    },
+    {
+      "name": "Estado0Tomate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_0_tomate"
+    },
+    {
+      "name": "Estado1Tomate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_1_tomate"
+    },
+    {
+      "name": "Estado2Tomate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_2_tomate"
+    },
+    {
+      "name": "Estado3Tomate",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_3_tomate"
+    },
+    {
+      "name": "SemillatomateRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semillatomate_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Estado0TomateUpdateTick",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_0_tomate_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Estado3TomateBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_3_tomate_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Estado3TomateBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_3_tomate_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Estado0TomateOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estado_0_tomate_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crearsemillastomate",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crearsemillastomate"
+    },
+    {
+      "name": "Amogus",
+      "type": "painting",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amogus"
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "stal2",
+      "files": [
+        "rick-astley-never-gonna-give-you-up-_official-music-video_"
+      ],
+      "category": "music",
+      "subtitle": "rickrolled xd"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.empanadacraft_mods.pina": "Pina",
+      "block.empanadacraft_mods.test": "Test",
+      "item.empanadacraft_mods.peperoni": "Peperoni",
+      "subtitles.stal2": "rickrolled xd",
+      "item.empanadacraft_mods.tomate": "Tomate",
+      "item.empanadacraft_mods.stal_2.desc": "definitely not a rickroll",
+      "item.empanadacraft_mods.yeast": "Yeast",
+      "item.empanadacraft_mods.mandarina": "mandarina",
+      "item.empanadacraft_mods.pizzaconpinha": "Pizzaconpinha",
+      "item.empanadacraft_mods.pizza_dough": "Pizza Dough",
+      "item.empanadacraft_mods.semillatomate": "semilla de tomate",
+      "item.empanadacraft_mods.palta": "Palta",
+      "block.empanadacraft_mods.estado_1_tomate": "Estado 1 Tomate",
+      "item.empanadacraft_mods.stal_2": "Stal 2",
+      "block.empanadacraft_mods.estado_3_tomate": "Estado 2 Tomate",
+      "block.empanadacraft_mods.estado_0_tomate": "Estado 0 Tomate",
+      "block.empanadacraft_mods.estado_2_tomate": "Estado 2 Tomate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "semillas",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "empanadacraft_mods",
+    "modName": "empanadacraft_mods",
+    "version": "1.0.0",
+    "author": "hamto, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.empanadacraftmods",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200112711
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 25,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "stal2",
+    "name": "Stal 2",
+    "description": "definitely not a rickroll",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:stal2"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
